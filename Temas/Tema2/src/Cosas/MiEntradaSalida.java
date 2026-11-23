@@ -42,9 +42,15 @@ public class MiEntradaSalida {
     }
 
     //LEER NUMERO EN RANGO
+<<<<<<< HEAD
     public static int leerEnRangoPositivo(String mensaje, int min, int max) {
         Scanner sc = new Scanner(System.in);
         int numenrango = -1;
+=======
+    public static int leerEnRango(String mensaje, int min, int max) {
+        Scanner sc = new Scanner(System.in);
+        int numenrango = 0;
+>>>>>>> e4531d95f364d00a1203507fb521cd2d38d22b64
         while (numenrango < min || numenrango > max) {
             System.out.printf("%s: ", mensaje);
             numenrango = sc.nextInt();

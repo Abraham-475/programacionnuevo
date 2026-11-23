@@ -26,7 +26,11 @@ public class EjLlamadaMiEntradaSalida {
         System.out.println("Tu numero Double es: " + numdouble);
 
         //EJ DE MANDAR EL NUMERO EN RANGO
+<<<<<<< HEAD
         int numenrango = MiEntradaSalida.leerEnRangoPositivo("Introduce un numero entre 5 y 10", 5, 10);
+=======
+        int numenrango = MiEntradaSalida.leerEnRango("Introduce un numero entre 5 y 10", 5, 10);
+>>>>>>> e4531d95f364d00a1203507fb521cd2d38d22b64
         System.out.println("Tu numero dentro del rango es: " + numenrango);
 
         //EJ DE LEER CARACTER
